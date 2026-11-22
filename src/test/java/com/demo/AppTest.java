@@ -1,0 +1,18 @@
+
+package com.demo;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class AppTest {
+
+    @Test
+    public void testAddition() {
+        assertEquals(30, App.add(10, 20));
+    }
+
+    @Test
+    public void testNegativeNumbers() {
+        assertEquals(-5, App.add(-2, -3));
+    }
+}
